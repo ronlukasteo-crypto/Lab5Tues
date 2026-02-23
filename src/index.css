@@ -1,0 +1,156 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1e;
+    color: #e2e2e6;
+    min-height: 100vh;
+   }
+   
+   /* Header and Navigation Styling */
+   header {
+       background-color: #2d2d33;
+       color: #f0f0f4;
+       padding: 20px;
+       text-align: center;
+       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+   }
+   
+   header h1 {
+       font-family: 'Arial', sans-serif;
+       margin: 0px 0px 20px;
+       font-size: 40px;
+       font-weight: 600;
+       letter-spacing: -0.02em;
+    }
+   
+   #txt-red {
+       color: #e07a7a;
+   }
+   
+   
+   header nav {
+       text-align: right;
+       margin-left: auto;
+   }
+   
+   nav ul {
+       list-style: none;
+       padding-left: 0;
+       margin: 0;
+   }
+   
+   nav ul li {
+       display: inline;
+       text-align: right;
+       margin: 0 15px 0px 15px;
+   }
+   
+   nav li a {
+       color: #040405;
+       text-decoration: none;
+       font-size: 20px;
+       transition: color 0.2s ease;
+   }
+   
+   nav ul li a:hover {
+       color: #ff0000;
+       text-decoration: underline;
+   } 
+   
+   
+   
+   /* Section Styling */
+   section {
+       padding: 30px;
+       background-color: #d5d5d5;
+       color: #faf9f9;
+       margin: 30px auto;
+       border-radius: 12px;
+       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+       width: 80%;
+       max-width: 900px;
+   }
+   
+   section p {
+    color: #212121;
+   }
+
+   section li {
+    color: #212121;
+   }
+   
+   /* Table Styling */
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin: 20px -10px;
+       border-radius: 8px;
+       overflow: hidden;
+   }
+   
+   table th, table td {
+       border: 1px solid #e0e0e4;
+       padding: 12px;
+       text-align: left;
+   }
+   
+   table th {
+       background-color: #2d2d33;
+       color: #f0f0f4;
+       font-weight: 600;
+   }
+   
+   table tr:nth-child(even) {
+       background-color: #f0f0f4;
+   }
+   
+   table tr:hover {
+       background-color: #e8e8ec;
+   }
+   
+
+   
+   /* Footer Styling */
+   footer {
+       background-color: #2d2d33;
+       color: #e2e2e6;
+       text-align: center;
+       padding: 14px;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+   }
+   
+   footer p {
+       margin: 0;
+       color: #ffffff;
+   }
+   
+   /* Additional Styling for Image Gallery in index.html */
+   img {
+       border-radius: 10px;
+       margin: 20px;
+   }
+   
+   /* Custom Highlight Section Styling */
+   h2 {
+       color: #2d2d33;
+       margin-top: 0;
+   }
+   
+   h3 {
+       color: #2d2d33;
+   }
+   
+   hr {
+       border: 0;
+       height: 1px;
+       background: #e0e0e4;
+   }
+   
+   #results {
+       text-align: center;
+       color: #c45c5c;
+   }
